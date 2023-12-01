@@ -12,23 +12,22 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:text="@string/world_cinema"
-            android:textAlignment="center"
-            android:textColor="@color/blue"
-            android:textSize="20dp"
-            android:textStyle="bold" />
+            android:layout_gravity="center"
+            android:src="@drawable/worldcinema"
+            android:layout_marginBottom="10dp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="42dp"
+            android:layout_marginStart="42dp"
             android:layout_marginTop="5dp"
             android:text="@string/email"
-            android:textColor="@color/blue" />
+            android:textColor="@color/blue"
+            android:fontFamily="@font/roboto"/>
 
         <EditText
             android:id="@+id/Email"
@@ -40,13 +39,15 @@
             android:inputType="textEmailAddress"
             android:textColor="@color/white"
             android:textColorHint="@color/gray"
-            android:textSize="10dp" />
+            android:textSize="16sp"
+            android:fontFamily="@font/roboto"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="42dp"
+            android:layout_marginStart="42dp"
             android:layout_marginTop="5dp"
+            android:fontFamily="@font/roboto"
             android:text="@string/password"
             android:textColor="@color/blue" />
 
@@ -59,7 +60,9 @@
             android:hint="@string/hint_password"
             android:textColor="@color/white"
             android:textColorHint="@color/gray"
-            android:textSize="10dp" />
+            android:textSize="16sp"
+            android:fontFamily="@font/roboto"
+            android:inputType="textPassword"/>
 
         <Button
             android:id="@+id/ButtonSugnIn"
@@ -70,7 +73,8 @@
             android:text="Войти"
             android:textAllCaps="false"
             android:textColor="@color/white"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:fontFamily="@font/roboto"/>
 
     </LinearLayout>
 

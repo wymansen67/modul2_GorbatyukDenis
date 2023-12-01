@@ -23,6 +23,7 @@
         android:textColor="@color/white"
         android:textStyle="bold"
         android:textAlignment="center"
-        android:textSize="20sp"/>
+        android:textSize="20sp"
+        android:fontFamily="@font/roboto"/>
 
 </LinearLayout>

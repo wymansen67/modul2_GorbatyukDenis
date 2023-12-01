@@ -19,12 +19,14 @@
             android:text="Обсуждения"
             android:textAlignment="center"
             android:textColor="@color/blue"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:fontFamily="@font/roboto"/>
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/Chats"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:fontFamily="@font/roboto"/>
 
     </LinearLayout>
 
