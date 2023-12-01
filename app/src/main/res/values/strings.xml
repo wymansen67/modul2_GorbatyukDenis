@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WatchOSe</string>
+    <string name="world_cinema">WorldCinema</string>
+    <string name="email">E-mail</string>
+    <string name="email_example">you@example.com</string>
+    <string name="password">Пароль</string>
+    <string name="hint_password">Ваш пароль</string>
+</resources>
